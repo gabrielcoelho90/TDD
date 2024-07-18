@@ -64,5 +64,3 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 end
-
-Dir[Rails.root.join('spec/factories/**/*.rb')].each { |f| require f }
